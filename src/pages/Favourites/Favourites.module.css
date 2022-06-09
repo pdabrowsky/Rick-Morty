@@ -1,0 +1,8 @@
+.wrapper {
+	margin-top: 150px;
+}
+.cards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}

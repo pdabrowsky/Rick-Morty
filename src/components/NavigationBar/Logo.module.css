@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+.text {
+	margin: 34px;
+	color: #0ec45a;
+	text-shadow: 1px 3px 1px #fdd719;
+	font-family: "Creepster";
+	font-size: 30px;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+@media screen and (min-width: 365px) {
+	.text {
+		font-size: 44px;
+		margin: 20px;
+	}
+}

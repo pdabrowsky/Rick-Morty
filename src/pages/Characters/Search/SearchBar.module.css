@@ -1,0 +1,26 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+.search {
+	width: 250px;
+	border: 1px solid black;
+	border-radius: 6px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	margin: 150px 0 60px;
+	padding-left: 4px;
+}
+@media screen and (min-width: 768px) {
+	.search {
+		width: 350px;
+		padding-left: 8px;
+	}
+}
+@media screen and (min-width: 1600px) {
+	.search {
+		width: 450px;
+		padding-left: 8px;
+	}
+}
