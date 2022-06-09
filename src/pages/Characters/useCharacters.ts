@@ -44,16 +44,6 @@ const initialData = {
 	results: [],
 };
 
-const ob = {
-	i: 1,
-	foo() {
-		console.log(this); // obiekt
-	},
-	boo: () => 55,
-};
-console.log(ob.foo());
-console.log(ob.boo());
-
 const useCharacters = () => {
 	const [data, setData] = useState<Response>(initialData);
 	const [query, setQuery] = useState("");
